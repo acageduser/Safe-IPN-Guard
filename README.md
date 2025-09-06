@@ -102,7 +102,8 @@ Please support the original authors and projects:
 - **Stack to Nearby Chests** — by xiaocihua1337 *(not the cause of this crash, but commonly co-installed)*  
   CurseForge: https://www.curseforge.com/minecraft/mc-mods/stack-to-nearby-chests
 
-> *Too Many Shortcuts* provides the UP action many players use with IPN; link it if you include it in your pack.
+- **Too Many Shortcuts** — by KingTux *(not the cause of this crash, but commonly co-installed)*  
+  Modrinth: https://modrinth.com/mod/too-many-shortcuts
 
 ---
 
