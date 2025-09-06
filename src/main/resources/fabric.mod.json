@@ -3,11 +3,37 @@
   "id": "safeipn",
   "version": "1.0.0",
   "name": "Safe IPN Guard",
+  "description": "A tiny client-side Fabric compatibility shim that prevents an IndexOutOfBoundsException crash when using Inventory Profiles Next (IPN) together with Tiny Item Animations (TIA). It clamps out-of-range slot indices so automated moves (like the UP arrow action) don’t crash the client.\n\nConfirmed working on Minecraft 1.21.8 with Fabric Loader 0.16.14, IPN 2.1.11, TIA 1.2.3.",
+  "authors": ["acageduser"],
+  "license": "MIT",
   "environment": "client",
-  "mixins": ["mixins.safeipn.json"],
+
+  "contact": {
+    "homepage": "https://github.com/acageduser/Safe-IPN-Guard",
+    "issues": "https://github.com/acageduser/Safe-IPN-Guard/issues"
+  },
+
+  "icon": "assets/safeipn/icon.png",
+
   "depends": {
     "fabricloader": ">=0.16.14",
-    "minecraft": ">=1.21.6 <1.22",
-    "inventoryprofilesnext": ">=2.1.10"
+    "minecraft": ">=1.21.6 <1.22"
+  },
+  "suggests": {
+    "inventoryprofilesnext": ">=2.1.10",
+    "tia": ">=1.2.3",
+    "fabric-api": "*"
+  },
+
+  "mixins": [
+    "mixins.safeipn.json"
+  ],
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "GitHub": "https://github.com/acageduser/Safe-IPN-Guard"
+      }
+    }
   }
 }
