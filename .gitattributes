@@ -1,2 +1,25 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings
 * text=auto
+
+# Scripts & source should be LF
+*.sh text eol=lf
+gradlew text eol=lf
+*.java text eol=lf
+*.kt text eol=lf
+*.groovy text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Windows batch files keep CRLF
+*.bat text eol=crlf
+
+# Treat generated binaries as binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.zip binary
+
+# Linguist hints
+*.gradle linguist-language=Groovy

@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+out/
+# Keep wrapper scripts & jar
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# Fabric Loom run dir
+run/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local env/config
+local.properties
+*.env

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "safeipn",
+  "version": "1.0.0",
+  "name": "Safe IPN Guard",
+  "environment": "client",
+  "mixins": ["mixins.safeipn.json"],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": ">=1.21.6 <1.22",
+    "inventoryprofilesnext": ">=2.1.10"
+  }
+}
